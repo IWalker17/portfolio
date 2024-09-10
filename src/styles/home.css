@@ -1,0 +1,88 @@
+#landing-container {
+  background-color: #000000;
+  min-width: 800px;
+  max-width: 70%;
+  margin: 0 auto;
+  height: 60%;
+  position: relative;
+  top: 20px;
+  border-radius: 10px;
+  border: 1px solid #c0c0c06e;
+  box-shadow: 3px 3px black;
+  overflow-y: scroll;
+  overscroll-behavior: contain;
+  scroll-snap-type: proximity;
+}
+
+#landing-container p {
+  margin-left: 4px;
+  margin-top: 4px;
+  margin-bottom: 0px;
+  margin-right: 4px;
+  color: #04ca35;
+  font-family: monospace;
+  overflow-wrap: break-word;
+  scroll-snap-align: end;
+  white-space: pre-line;
+}
+
+#term-bar {
+  width: 100%;
+  height: 30px;
+  background-color: #ffffff40;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 1px solid #ffffff40;
+}
+
+#red {
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 2px 0px 2px 20px;
+  width: 12px;
+  height: 12px;
+}
+
+#yellow {
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 2px 0px 2px 10px;
+  width: 12px;
+  height: 12px;
+}
+
+#green {
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 2px 0px 2px 10px;
+  width: 12px;
+  height: 12px;
+}
+
+#tab {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowraps;
+  width: 200px;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  background-color: #ffffff2c;
+  border-left: 1px solid #0000008b;
+  border-right: 1px solid #0000008b;
+  margin-left: 3em;
+  /* flex: .2; */
+  text-align: start;
+  text-justify: start;
+}
+
+.terminal-profile {
+  color: #ffffff;
+}

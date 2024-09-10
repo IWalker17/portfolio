@@ -1,0 +1,182 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  box-shadow: 0px 3px #00000055;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #1a1a1a;
+  z-index: 9999;
+}
+
+header h1 {
+  flex: 1;
+  margin: 10px 0 0 20px;
+  padding: 0;
+  text-shadow: 3px 3px #00000055;
+}
+
+header nav ul {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  flex: 1;
+  display: inline-block;
+  margin: 10px 20px;
+  border: 2px groove #535bf2;
+  border-radius: 10px;
+  padding: 4px;
+  background-color: #00000035;
+  text-shadow: 3px 3px #00000055;
+  min-width: 100px;
+  max-width: 100px;
+  text-align: center;
+}
+
+header nav ul li a{
+  display: block;
+  width: 100%;
+}
+
+#about:hover, #skills:hover, #projects:hover, 
+#contact:hover, #blog:hover {
+  transform: rotate(0deg);
+  animation-name: back-and-forth;
+  animation-duration: 0.25s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+#firsti {
+  font-size: 1em;
+  animation-name: change-size;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+#s {
+  font-size: 1em;
+  animation-name: change-size;
+  animation-duration: 3s;
+  animation-delay: 0.25s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+#firsta {
+  font-size: 1em;
+  animation-name: change-size;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+#secondi {
+  font-size: 1em;
+  animation-name: change-size;
+  animation-duration: 3s;
+  animation-delay: 0.75s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+#seconda {
+  font-size: 1em;
+  animation-name: change-size;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+#h {
+  font-size: 1em;
+  animation-name: change-size;
+  animation-duration: 3s;
+  animation-delay: 1.25s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+#space {
+  font-size: 1em;
+  animation-name: change-size;
+  animation-duration: 3s;
+  animation-delay: 1.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+#w {
+  font-size: 1em;
+  animation-name: change-size;
+  animation-duration: 3s;
+  animation-delay: 1.75s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+#thirda {
+  font-size: 1em;
+  animation-name: change-size;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+#l {
+  font-size: 1em;
+  animation-name: change-size;
+  animation-duration: 3s;
+  animation-delay: 2.25s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+#k {
+  font-size: 1em;
+  animation-name: change-size;
+  animation-duration: 3s;
+  animation-delay: 2.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+#e {
+  font-size: 1em;
+  animation-name: change-size;
+  animation-duration: 3s;
+  animation-delay: 2.75s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+#r  {
+  font-size: 1em;
+  animation-name: change-size;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes change-size {
+  0% { font-size: 1em }
+  100% { font-size: 1.05em }
+}
+
+@keyframes back-and-forth {
+  0% { transform: rotate(3deg) }
+  100% { transform: rotate(-3deg) }
+}
